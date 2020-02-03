@@ -1,20 +1,3 @@
-[![](http://www.hollischuang.com/wp-content/uploads/2018/10/Hollis.png)](https://www.hollischuang.com)
-
-## To Be Top Javaer  -  Java工程师成神之路
-
-![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/author-Hollis-yellow.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
-
-
-| 主要版本 | 更新时间       | 备注             |
-| ---- | ---------- | -------------- |
-| v1.0 | 2015-08-01 | 首次发布           |
-| v1.1 | 2018-03-12 | 增加新技术知识、完善知识体系 |
-| v2.0 | 2019-02-19 | 结构调整，更适合从入门到精通；<br>进一步完善知识体系； <br>新技术补充；|
-
-欢迎关注[Java之道]公众号，最新内容均会在该公众号中同步发出！
-![](pics/wechat.png)
-
-
 [全套思维导图](/mind-map.md)
 
 ## 一、基础篇
@@ -273,23 +256,23 @@ String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader & URLCla
 
 #### 线程
 
-线程的实现、线程的状态、优先级、线程调度、创建线程的多种方式、守护线程
+[线程的实现](https://www.cnblogs.com/lixiaochao/p/9490264.html)、[线程的状态](https://blog.csdn.net/xingjing1226/article/details/81977129)、[优先级](https://www.cnblogs.com/HelloBigTable/p/10827269.html)、[线程调度](https://blog.csdn.net/Liukengpeng/article/details/80239496)、[创建线程的多种方式](https://www.cnblogs.com/zhou-test/p/9811771.html)、[守护线程](https://blog.csdn.net/weixin_42447959/article/details/83018923)
 
-线程与进程的区别
+[线程与进程的区别](https://www.jianshu.com/p/2dc01727be45)
 
 #### 线程池
 
-自己设计线程池、submit() 和 execute()、线程池原理
+[自己设计线程池](https://blog.csdn.net/seulzz/article/details/77430559)、[submit() 和 execute()](https://blog.csdn.net/mryang125/article/details/81879096)、[线程池原理](https://blog.51cto.com/14230003/2418026?source=dra)
 
-为什么不允许使用Executors创建线程池
+[为什么不允许使用Executors创建线程池](https://blog.csdn.net/fly910905/article/details/81584675)
 
 #### 线程安全
 
-[死锁？](/basics/java-basic/deadlock-java-level.md)、死锁如何排查、线程安全和内存模型的关系
+[死锁？](/basics/java-basic/deadlock-java-level.md)、[死锁如何排查](https://www.cnblogs.com/aflyun/p/9194104.html)、[线程安全和内存模型的关系](https://www.cnblogs.com/haoworld/p/java-bing-fa-xian-cheng-an-quan-he-nei-cun-mo-xing.html)
 
 #### 锁
 
-CAS、乐观锁与悲观锁、数据库相关锁机制、分布式锁、偏向锁、轻量级锁、重量级锁、monitor、
+[CAS](https://www.cnblogs.com/javalyy/p/8882172.html)、[乐观锁与悲观锁](https://www.jianshu.com/p/d2ac26ca6525)、[数据库相关锁机制](https://www.cnblogs.com/xiaofengwang/p/11291944.html)、[分布式锁](https://www.jianshu.com/p/a1ebab8ce78a)、偏向锁、轻量级锁、重量级锁、monitor、
 
 锁优化、锁消除、锁粗化、自旋锁、可重入锁、阻塞锁、死锁
 
@@ -986,10 +969,3 @@ Groovy、Python、Go、NodeJs、Swift、Rust
 《鸟哥的Linux私房菜》 
 《从Paxos到Zookeeper》 
 《架构即未来》
-
--------------
-
-扫描二维码，关注作者微信
-
-![](http://www.hollischuang.com/wp-content/uploads/2018/10/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%BE%8E%E5%8C%96-1.png)
-

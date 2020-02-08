@@ -272,9 +272,9 @@ String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader & URLCla
 
 #### 锁
 
-[CAS](https://www.cnblogs.com/javalyy/p/8882172.html)、[乐观锁与悲观锁](https://www.jianshu.com/p/d2ac26ca6525)、[数据库相关锁机制](https://www.cnblogs.com/xiaofengwang/p/11291944.html)、[分布式锁](https://www.jianshu.com/p/a1ebab8ce78a)、偏向锁、轻量级锁、重量级锁、monitor、
+[CAS](https://www.cnblogs.com/javalyy/p/8882172.html)、[乐观锁与悲观锁](https://www.jianshu.com/p/d2ac26ca6525)、[数据库相关锁机制](https://www.cnblogs.com/xiaofengwang/p/11291944.html)、[分布式锁](https://www.jianshu.com/p/31d3de863ff7)、[偏向锁、轻量级锁、重量级锁](https://www.cnblogs.com/linghu-java/p/8944784.html)、monitor、
 
-锁优化、锁消除、锁粗化、自旋锁、可重入锁、阻塞锁、死锁
+[锁优化](https://www.cnblogs.com/xdecode/p/9137804.html)、[锁消除、锁粗化](https://blog.csdn.net/qq_26222859/article/details/80546917)、自旋锁、[可重入锁](https://blog.csdn.net/w8y56f/article/details/89554060)、阻塞锁、死锁
 
 #### 死锁
 
@@ -318,6 +318,7 @@ volatile和原子性、可见性和有序性之间的关系
 
 Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors
 
+[并发包](https://www.cnblogs.com/xdecode/p/9102741.html)
 ## 二、底层篇
 
 ### JVM

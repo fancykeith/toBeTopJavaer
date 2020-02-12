@@ -331,11 +331,11 @@ class文件格式、运行时数据区：堆、栈、方法区、直接内存、
 
 [Java中的对象一定在堆上分配吗？](/basics/jvm/stack-alloc.md)
 
-#### Java内存模型
+#### [Java内存模型](http://www.hollischuang.com/archives/2550)
 
-计算机内存模型、缓存一致性、MESI协议
+[计算机内存模型、缓存一致性、MESI协议](https://blog.csdn.net/vtopqx/article/details/78364685)
 
-可见性、原子性、顺序性、happens-before、
+可见性、原子性、有序性、[happens-before](https://blog.csdn.net/qq_19642249/article/details/81002210)、
 
 内存屏障、synchronized、volatile、final、锁
 
@@ -347,9 +347,17 @@ GC参数、对象存活的判定、垃圾收集器（CMS、G1、ZGC、Epsilon）
 
 #### JVM参数及调优
 
--Xmx、-Xmn、-Xms、Xss、-XX:SurvivorRatio、
-
--XX:PermSize、-XX:MaxPermSize、-XX:MaxTenuringThreshold
+-Xmx 最小内存
+-Xmn 年轻代大小
+-Xms 最小内存
+-Xss 设置每个线程的堆栈大小
+-XX:newSize 新生代初始内存的大小
+-XX:MaxnewSize：表示新生代可被分配的内存的最大上限
+-XX:NewRatio 设置年轻代（包括Eden和两个Survivor区）与年老代的比值
+-XX:SurvivorRatio 年轻代中Eden区与Survivor区的大小比值默认8
+-XX:PermSize  非堆区初始内存分配大小
+-XX:MaxPermSize 非堆区分配的内存的最大上限
+-XX:MaxTenuringThreshold 设置垃圾最大年龄默认15
 
 #### Java对象模型
 

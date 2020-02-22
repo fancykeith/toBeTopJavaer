@@ -348,15 +348,25 @@ GC参数、对象存活的判定、垃圾收集器（CMS、G1、ZGC、Epsilon）
 #### JVM参数及调优
 
 -Xmx 最小内存
+
 -Xmn 年轻代大小
+
 -Xms 最小内存
+
 -Xss 设置每个线程的堆栈大小
+
 -XX:newSize 新生代初始内存的大小
+
 -XX:MaxnewSize：表示新生代可被分配的内存的最大上限
+
 -XX:NewRatio 设置年轻代（包括Eden和两个Survivor区）与年老代的比值
+
 -XX:SurvivorRatio 年轻代中Eden区与Survivor区的大小比值默认8
+
 -XX:PermSize  非堆区初始内存分配大小
+
 -XX:MaxPermSize 非堆区分配的内存的最大上限
+
 -XX:MaxTenuringThreshold 设置垃圾最大年龄默认15
 
 #### Java对象模型
@@ -395,21 +405,31 @@ JIT、JIT优化（逃逸分析、栈上分配、标量替换、锁优化）
 
 #### CPU缓存，L1，L2，L3和伪共享
 
-#### 尾递归
+#### [尾递归](https://www.cnblogs.com/Anker/archive/2013/03/04/2943498.html)
 
 #### 位运算
 
-用位运算实现加、减、乘、除、取余
+[用位运算实现加、减、乘、除、取余](https://blog.csdn.net/ojshilu/article/details/11179911)
 
 ### 设计模式
 
-设计模式的六大原则：
+[设计模式的六大原则](http://www.uml.org.cn/sjms/201211023.asp):
 
-开闭原则（Open Close Principle）、里氏代换原则（Liskov Substitution Principle）、依赖倒转原则（Dependence Inversion Principle）
+单一职责原则(Single Responsibility Principle)
 
-接口隔离原则（Interface Segregation Principle）、迪米特法则（最少知道原则）（Demeter Principle）、合成复用原则（Composite Reuse Principle）
+开闭原则（Open Close Principle）
 
-#### 了解23种设计模式
+里氏代换原则（Liskov Substitution Principle）
+
+依赖倒转原则（Dependence Inversion Principle）
+
+接口隔离原则（Interface Segregation Principle）
+
+迪米特法则（最少知道原则）（Demeter Principle）
+
+合成复用原则（Composite Reuse Principle）
+
+#### 了解23种[设计模式](https://www.runoob.com/design-pattern/factory-pattern.html)
 
 创建型模式：单例模式、抽象工厂模式、建造者模式、工厂模式、原型模式。
 
@@ -419,11 +439,12 @@ JIT、JIT优化（逃逸分析、栈上分配、标量替换、锁优化）
 
 #### 会使用常用设计模式
 
-单例的七种写法：懒汉——线程不安全、懒汉——线程安全、饿汉、饿汉——变种、静态内部类、枚举、双重校验锁
+[单例的七种写法](https://blog.csdn.net/itachi85/article/details/50510124)：
+懒汉——线程不安全、懒汉——线程安全、饿汉、饿汉——变种、静态内部类、枚举、双重校验锁
 
 工厂模式、适配器模式、策略模式、模板方法模式、观察者模式、外观模式、代理模式等必会
 
-#### 不用synchronized和lock，实现线程安全的单例模式
+#### [不用synchronized和lock，实现线程安全的单例模式](https://blog.csdn.net/w372426096/article/details/80938895)
 
 #### 实现AOP
 
@@ -505,7 +526,7 @@ Bean的初始化
 
 AOP原理
 
-实现Spring的IOC
+[实现Spring的IOC](https://juejin.im/post/5bc5c88df265da0b001f5dee#heading-0)
 
 spring四种依赖注入方式
 

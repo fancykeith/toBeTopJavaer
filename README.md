@@ -452,13 +452,16 @@ JIT、JIT优化（逃逸分析、栈上分配、标量替换、锁优化）
 
 #### nio和reactor设计模式
 
-### 网络编程知识
+### [网络编程知识](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html)
 
-#### tcp、udp、http、https等常用协议
+#### [tcp、udp、http、https等常用协议](https://segmentfault.com/a/1190000017524542)
 
-三次握手与四次关闭、流量控制和拥塞控制、OSI七层模型、tcp粘包与拆包
+[三次握手与四次关闭](https://www.jianshu.com/p/9968b16b607e)、
+[流量控制和拥塞控制](https://zhuanlan.zhihu.com/p/37379780)、
+OSI七层模型、
+[tcp粘包与拆包](https://www.cnblogs.com/wade-luffy/p/6165671.html)
 
-#### http/1.0 http/1.1 http/2之间的区别
+#### [http/1.0 http/1.1 http/2之间的区别](https://www.jianshu.com/p/52d86558ca57)
 
 http中 get和post区别
 
@@ -486,15 +489,17 @@ cookie被禁用，如何实现session
 
 #### DNS？
 
-什么是DNS 、记录类型:A记录、CNAME记录、AAAA记录等
+[什么是DNS](https://www.ruanyifeng.com/blog/2016/06/dns.html) 、
+记录类型:A记录、CNAME记录、AAAA记录(ipv6)等
 
-域名解析、根域名服务器
+域名解析、[根域名服务器](https://www.ruanyifeng.com/blog/2018/05/root-domain.html)
 
-DNS污染、DNS劫持、公共DNS：114 DNS、Google DNS、OpenDNS
+[DNS污染、DNS劫持](https://www.hack520.com/330.html)、
+[公共DNS：114 DNS、Google DNS、OpenDNS])(https://blog.csdn.net/lvshuchangyin/article/details/64905071)
 
 #### 反向代理
 
-正向代理、反向代理
+[正向代理、反向代理](https://www.jianshu.com/p/208c02c9dd1d)
 
 反向代理服务器
 
@@ -510,16 +515,6 @@ filter和listener
 
 web.xml中常用配置及作用
 
-#### Hibernate
-
-什么是OR Mapping
-
-Hibernate的缓存机制
-
-Hibernate的懒加载
-
-Hibernate/Ibatis/MyBatis之间的区别
-
 #### Spring 
 
 Bean的初始化
@@ -528,7 +523,7 @@ AOP原理
 
 [实现Spring的IOC](https://juejin.im/post/5bc5c88df265da0b001f5dee#heading-0)
 
-spring四种依赖注入方式
+[spring四种依赖注入方式](https://blog.csdn.net/eff666/article/details/58644648)
 
 #### Spring MVC
 
@@ -952,7 +947,7 @@ Solr、Lucene、Nutch、Elasticsearch
 
 ### 权限管理
 
-Shiro
+Shiro oauth2
 
 ### 区块链
 

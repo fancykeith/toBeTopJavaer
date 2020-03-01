@@ -435,14 +435,14 @@ JIT、JIT优化（逃逸分析、栈上分配、标量替换、锁优化）
 
 结构型模式：适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
 
-行为型模式：模版方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式（Interpreter模式）、状态模式、策略模式、职责链模式(责任链模式)、访问者模式。
+行为型模式：模版方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式（Interpreter模式）、状态模式、策略模式、责任链模式、访问者模式。
 
 #### 会使用常用设计模式
 
 [单例的七种写法](https://blog.csdn.net/itachi85/article/details/50510124)：
 懒汉——线程不安全、懒汉——线程安全、饿汉、饿汉——变种、静态内部类、枚举、双重校验锁
 
-工厂模式、适配器模式、策略模式、模板方法模式、观察者模式、外观模式、代理模式等必会
+工厂模式、适配器模式、策略模式、模板方法模式、观察者模式、外观模式、代理模式、责任链模式等必会
 
 #### [不用synchronized和lock，实现线程安全的单例模式](https://blog.csdn.net/w372426096/article/details/80938895)
 
@@ -507,13 +507,13 @@ cookie被禁用，如何实现session
 
 #### Servlet
 
-生命周期
+[生命周期](https://www.runoob.com/servlet/servlet-life-cycle.html)
 
-线程安全问题
+[线程安全问题](https://www.cnblogs.com/chanshuyi/p/5052426.html)
 
-filter和listener
+[filter和listener](http://www.codebelief.com/article/2017/09/java-web-understand-servlet-filter-listener-via-three-pictures/)
 
-web.xml中常用配置及作用
+[web.xml中常用配置及作用](https://blog.csdn.net/zuoluoboy/article/details/4213053)
 
 #### Spring 
 
@@ -527,15 +527,14 @@ AOP原理
 
 #### Spring MVC
 
-什么是MVC
+[什么是MVC](https://blog.csdn.net/zjthorse/article/details/82077964)
 
-Spring mvc与Struts mvc的区别
 
 #### Spring Boot
 
-Spring Boot 2.0、起步依赖、自动配置、
+[Spring Boot 2.0、起步依赖、自动配置、](https://sq.163yun.com/blog/article/191282086714130432)
 
-Spring Boot的starter原理，自己实现一个starter
+[Spring Boot的starter原理，自己实现一个starter](https://juejin.im/entry/58d37630570c350058c2c15c)
 
 #### Spring Security
 

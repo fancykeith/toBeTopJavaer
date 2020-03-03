@@ -694,21 +694,23 @@ javap 、jad 、CRF
 
 ### 数据库知识
 
-#### MySql 执行引擎
+#### [MySql 执行引擎](https://blog.csdn.net/qq_38258310/article/details/94468604)
 
-#### MySQL 执行计划
+#### [MySQL 执行计划](https://juejin.im/post/5a52386d51882573443c852a)
 
 如何查看执行计划，如何根据执行计划进行SQL优化
 
 #### 索引
 
-Hash索引、B树索引（B+树、和B树、R树）
+[Hash索引、B树索引（B+树、和B树、R树）](https://www.cxyxiaowu.com/7584.html)
 
-普通索引、唯一索引
+[普通索引、唯一索引](https://blog.csdn.net/wujizkm/article/details/50497642)
 
-覆盖索引、最左前缀原则、索引下推
+[覆盖索引](https://www.jianshu.com/p/77eaad62f974)
+、最左前缀原则
+、[索引下推](https://zhuanlan.zhihu.com/p/73035620)
 
-#### SQL优化
+#### [SQL优化](https://dbaplus.cn/news-155-1531-1.html)
 
 #### 数据库事务和隔离级别
 
@@ -818,7 +820,7 @@ XSS的防御
 
 #### 注入攻击
 
-SQL注入、XML注入、CRLF注入
+SQL注入、XML注入、[CRLF注入](https://zhuanlan.zhihu.com/p/22521378)
 
 #### 文件上传漏洞
 

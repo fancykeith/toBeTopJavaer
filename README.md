@@ -714,21 +714,22 @@ javap 、jad 、CRF
 
 #### 数据库事务和隔离级别
 
-事务的隔离级别、事务能不能实现锁的功能
+[事务的隔离级别](https://www.cnblogs.com/zhoujinyi/p/3437475.HTML)
+、事务能不能实现锁的功能
 
 #### 数据库锁
 
-行锁、表锁、使用数据库锁实现乐观锁、
+行锁、表锁、[使用数据库锁实现乐观锁](https://www.jianshu.com/p/f5ff017db62a)、
 
 #### 连接
 
-内连接，左连接，右连接
+[内连接，左连接，右连接](https://blog.csdn.net/plg17/article/details/78758593)
 
-#### 数据库主备搭建
+#### [数据库主备搭建](https://segmentfault.com/a/1190000010867488)
 
-#### binlog 
+#### [binlog](https://laijianfeng.org/2019/03/MySQL-Binlog-%E4%BB%8B%E7%BB%8D/) 
 
-#### redolog
+#### [redolog](https://juejin.im/entry/5ba0a254e51d450e735e4a1f)
 
 #### 内存数据库
 

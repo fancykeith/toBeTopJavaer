@@ -715,8 +715,10 @@ javap 、jad 、CRF
 #### 数据库事务和隔离级别
 
 [事务的隔离级别](https://www.cnblogs.com/zhoujinyi/p/3437475.HTML)
-、事务能不能实现锁的功能
 
+事务能不能实现锁的功能
+
+[MVCC](https://juejin.im/post/5c68a4056fb9a049e063e0ab)
 #### 数据库锁
 
 行锁、表锁、[使用数据库锁实现乐观锁](https://www.jianshu.com/p/f5ff017db62a)、
@@ -729,7 +731,7 @@ javap 、jad 、CRF
 
 #### [binlog](https://laijianfeng.org/2019/03/MySQL-Binlog-%E4%BB%8B%E7%BB%8D/) 
 
-#### [redolog](https://juejin.im/entry/5ba0a254e51d450e735e4a1f)
+#### [redolog](https://www.cnblogs.com/xinysu/p/6555082.html)
 
 #### 内存数据库
 

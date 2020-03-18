@@ -745,7 +745,7 @@ h2
 
 redis、memcached
 
-#### 分别使用数据库锁、NoSql实现分布式锁
+#### [分别使用数据库锁、NoSql实现分布式锁](http://www.hollischuang.com/archives/1716)
 
 #### 性能调优
 
@@ -759,11 +759,28 @@ redis、memcached
 
 栈和队列的相同和不同之处
 
-栈通常采用的两种存储结构
+栈通常采用的两种存储结构(线性存储结构和链表存储结构)
 
 #### 树
 
-二叉树、字典树、平衡树、排序树、B树、B+树、R树、多路树、红黑树
+二叉树
+
+[字典树](https://blog.csdn.net/lisonglisonglisong/article/details/45584721)
+
+平衡树
+
+排序树
+
+B树
+
+B+树
+
+R树
+
+多路树
+
+红黑树
+
 
 #### 堆
 
@@ -817,7 +834,7 @@ HDFS、MapReduce
 
 #### XSS
 
-XSS的防御
+[XSS的防御](https://tech.meituan.com/2018/09/27/fe-security.html)
 
 #### CSRF
 
@@ -827,21 +844,21 @@ SQL注入、XML注入、[CRLF注入](https://zhuanlan.zhihu.com/p/22521378)
 
 #### 文件上传漏洞
 
-#### 加密与解密
+#### [加密与解密](https://juejin.im/post/5b48b0d7e51d4519962ea383)
 
 对称加密、非对称加密、哈希算法、加盐哈希算法
 
 MD5，SHA1、DES、AES、RSA、DSA
 
-彩虹表
+[彩虹表](https://www.jianshu.com/p/732d9d960411)
 
 #### DDOS攻击
 
-DOS攻击、DDOS攻击
+[DOS攻击](https://zhuanlan.zhihu.com/p/79201759)、[DDOS攻击](http://www.ruanyifeng.com/blog/2018/06/ddos.html)
 
 memcached为什么可以导致DDos攻击、什么是反射型DDoS
 
-如何通过Hash碰撞进行DOS攻击
+[如何通过Hash碰撞进行DOS攻击](https://www.jianshu.com/p/5b99ae1ba9ce)
 
 #### SSL、TLS，HTTPS
 
@@ -855,7 +872,20 @@ memcached为什么可以导致DDos攻击、什么是反射型DDoS
 
 #### 分布式事务
 
-2PC、3PC、CAP、BASE、 可靠消息最终一致性、最大努力通知、TCC
+2PC
+
+3PC
+
+CAP 一致性（Consistency）、可用性（Availability）和分区容错性（Partition tolerance）
+
+BASE
+
+可靠消息最终一致性
+
+最大努力通知
+
+TCC
+
 
 #### Dubbo
 
@@ -881,7 +911,11 @@ Hystrix、Sentinal
 
 #### 算法
 
-共识算法、Raft协议、Paxos 算法与 Raft 算法、拜占庭问题与算法
+共识算法、
+Raft协议、
+Paxos 算法
+与 Raft 算法、
+拜占庭问题与算法
 
 2PC、3PC
 

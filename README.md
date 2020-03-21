@@ -465,7 +465,7 @@ OSI七层模型、
 
 http中 get和post区别
 
-常见的web请求返回的状态码
+[常见的web请求返回的状态码](https://blog.csdn.net/q1056843325/article/details/53147180)
 
 404、302、301、500分别代表什么
 
@@ -963,7 +963,7 @@ CPU、内存、磁盘I/O、网络I/O等
 
 tomcat负载均衡、Nginx负载均衡
 
-四层负载均衡、七层负载均衡
+[四层负载均衡、七层负载均衡](https://www.jianshu.com/p/fa937b8e6712)
 
 ### DNS
 

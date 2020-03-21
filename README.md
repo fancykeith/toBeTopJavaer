@@ -296,9 +296,9 @@ happens-before、内存屏障、编译器指令重排和CPU指令重排
 
 volatile的实现原理
 
-volatile和原子性、可见性和有序性之间的关系
+[volatile和原子性、可见性和有序性之间的关系](https://blog.csdn.net/qq_39290394/article/details/98102339)
 
-有了symchronized为什么还需要volatile
+[有了symchronized为什么还需要volatile](https://juejin.im/post/5d5c9fbce51d4561cd246641)
 
 #### sleep 和 wait
 
